@@ -8,6 +8,7 @@ import (
 	"github.com/yjuq/go-sfml/window"
 )
 
+// Init -> sfml
 func Init(path string) {
 	audio.Init(path)
 	graphics.Init(path)
