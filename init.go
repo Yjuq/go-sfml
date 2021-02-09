@@ -1,11 +1,11 @@
 package sfml
 
 import (
-	"github.com/Yjuq/go-sfml/audio"
-	"github.com/Yjuq/go-sfml/graphics"
-	"github.com/Yjuq/go-sfml/network"
-	"github.com/Yjuq/go-sfml/system"
-	"github.com/Yjuq/go-sfml/window"
+	"github.com/yjuq/go-sfml/audio"
+	"github.com/yjuq/go-sfml/graphics"
+	"github.com/yjuq/go-sfml/network"
+	"github.com/yjuq/go-sfml/system"
+	"github.com/yjuq/go-sfml/window"
 )
 
 func Init(path string) {
