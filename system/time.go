@@ -10,12 +10,12 @@ var TimeZero Time = Time{}
 
 // AsSeconds -> Return a time value as a number of seconds
 func (time Time) AsSeconds() float32 {
-	return float32(time.Microseconds / 1000000)
+	return float32(time.Microseconds) / 1000000
 }
 
 // AsMilliseconds -> Return a time value as a number of milliseconds
 func (time Time) AsMilliseconds() int32 {
-	return int32(time.Microseconds / 1000)
+	return int32(time.Microseconds) / 1000
 }
 
 // AsMicroseconds -> Return a time value as a number of microseconds
